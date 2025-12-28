@@ -48,12 +48,12 @@ export function Sidebar({ isOpen, onClose, footer }: SidebarProps) {
         <History size={14} />
         History
       </div>
-      <div className="mt-3 flex-1 space-y-2 overflow-y-auto pr-1">
+      <div className="mt-3 flex-1 space-y-1 overflow-y-auto pr-1">
         {historyItems.map((item) => (
           <button
             key={item}
             type="button"
-            className="w-full rounded-xl border border-white/5 bg-white/5 px-3 py-2 text-left text-slate-200 transition hover:border-white/10 hover:bg-white/10"
+            className="w-full text-left px-4 py-2 text-sm text-gray-400 hover:text-gray-100 hover:bg-white/5 rounded-full transition-all truncate"
           >
             {item}
           </button>

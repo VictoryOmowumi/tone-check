@@ -12,6 +12,9 @@ const config: Config = {
       colors: {
         background: "#131314",
         surface: "#1E1F20",
+        "gemini-black": "#131314",
+        "gemini-surface": "#1E1F20",
+        "gemini-dark": "#0E0E0F",
       },
       borderRadius: {
         lg: "1rem",
@@ -21,7 +24,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: [
-          "var(--font-geist-sans)",
+          "Poppins",
           "system-ui",
           "-apple-system",
           "BlinkMacSystemFont",
